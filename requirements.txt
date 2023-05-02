@@ -379,6 +379,9 @@ greenlet==2.0.2 ; python_full_version == "3.10.11" and platform_machine == "aarc
     --hash=sha256:eff4eb9b7eb3e4d0cae3d28c283dc16d9bed6b193c2e1ace3ed86ce48ea8df19 \
     --hash=sha256:f82d4d717d8ef19188687aa32b8363e96062911e63ba22a0cff7802a8e58e5f1 \
     --hash=sha256:fc3a569657468b6f3fb60587e48356fe512c1754ca05a564f11366ac9e306526
+gunicorn==20.1.0 ; python_full_version == "3.10.11" \
+    --hash=sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e \
+    --hash=sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8
 h11==0.14.0 ; python_full_version == "3.10.11" \
     --hash=sha256:8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d \
     --hash=sha256:e3fe4ac4b851c468cc8363d500db52c2ead036020723024a109d37346efaa761
@@ -1036,7 +1039,7 @@ sentencepiece==0.1.98 ; python_full_version == "3.10.11" \
     --hash=sha256:fa13a125417d28e84fbdebcaf6aa115e4177d3e93aa66b857a42e7179f515b88 \
     --hash=sha256:fcf100268cefe1774794b18cbaf3065e2bf988f168a387973eb1260d51198795 \
     --hash=sha256:ffcc78e80c55eab67ee3439ade493607a4e37e1f0b82b168ead3debf9eaeaabe
-setuptools==67.7.1 ; platform_system == "Linux" and platform_machine == "x86_64" and python_full_version == "3.10.11" \
+setuptools==67.7.1 ; python_full_version == "3.10.11" \
     --hash=sha256:6f0839fbdb7e3cfef1fc38d7954f5c1c26bf4eebb155a55c9bf8faf997b9fb67 \
     --hash=sha256:bb16732e8eb928922eabaa022f881ae2b7cdcfaf9993ef1f5e841a96d32b8e0c
 six==1.16.0 ; python_full_version == "3.10.11" \
