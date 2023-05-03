@@ -1,1 +1,1 @@
-web: gunicorn main:app --host=0.0.0.0 --port=${PORT} --timeout 600
+web: gunicorn main:app --timeout 600
