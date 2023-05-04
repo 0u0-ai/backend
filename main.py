@@ -20,6 +20,7 @@ origins = [
     "http://127.0.0.1:8000",
     "http://127.0.0.1:3000",
     "http://127.0.0.1:3001",
+    "https://www.0u0.ai",
 ]
 
 app.add_middleware(
